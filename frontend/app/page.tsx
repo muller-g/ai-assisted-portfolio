@@ -1,0 +1,27 @@
+import Navbar from '@/components/ui/Navbar'
+import Footer from '@/components/ui/Footer'
+import Hero from '@/components/sections/Hero'
+import Sobre from '@/components/sections/Sobre'
+import Stack from '@/components/sections/Stack'
+import Servicos from '@/components/sections/Servicos'
+import Projetos from '@/components/sections/Projetos'
+import Experiencia from '@/components/sections/Experiencia'
+import Contato from '@/components/sections/Contato'
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Sobre />
+        <Stack />
+        <Servicos />
+        <Projetos />
+        <Experiencia />
+        <Contato />
+      </main>
+      <Footer />
+    </>
+  )
+}
