@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "npm run build && rsync -avz --delete . root@72.60.246.233:/var/www/webgabrieldev --exclude=node_modules",
+    "deploy": "dotenv -e .env -- sh -c 'npm run build && rsync -avz --delete . $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH --exclude=node_modules'",
     "start": "next start",
     "lint": "eslint"
   },
@@ -25,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv-cli": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
     "typescript": "^5"
