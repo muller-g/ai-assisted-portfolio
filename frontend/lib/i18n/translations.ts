@@ -18,8 +18,6 @@ const translations = {
       chip_disponivel: 'Disponível para projetos',
       heading1: 'Desenvolvedor',
       heading2: 'Fullstack',
-      heading3: 'com',
-      heading4: 'Inteligência Artificial',
       subtitle:
         'Desde 2021 construindo APIs escaláveis, chatbots inteligentes, agentes de IA e automações com WhatsApp. Transformo ideias em produtos digitais de alto impacto.',
       cta_projetos: 'Ver projetos',
@@ -197,8 +195,6 @@ const translations = {
       chip_disponivel: 'Available for projects',
       heading1: 'Fullstack',
       heading2: 'Developer',
-      heading3: 'powered by',
-      heading4: 'Artificial Intelligence',
       subtitle:
         'Since 2021 building scalable APIs, intelligent chatbots, AI agents and WhatsApp automations. I turn ideas into high-impact digital products.',
       cta_projetos: 'View projects',

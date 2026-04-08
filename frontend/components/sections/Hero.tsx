@@ -117,17 +117,6 @@ export default function Hero() {
               >
                 {t.hero.heading2}
               </Box>{' '}
-              {t.hero.heading3}{' '}
-              <Box
-                component="span"
-                sx={{
-                  background: 'linear-gradient(135deg, #00D4AA, #6C63FF)',
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                }}
-              >
-                {t.hero.heading4}
-              </Box>
             </MotionTypography>
 
             {/* Subtitle */}
